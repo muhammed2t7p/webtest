@@ -1,0 +1,54 @@
+:root {
+--light:         rgb(211, 211, 211);
+--dark:          rgb(49, 49, 49); 
+--text-theme:    rgb(253, 122, 0);
+--theme:           linear-gradient(67deg, rgb(255, 93, 93) 0%, rgb(255, 156, 75) 55%, rgb(255, 244, 89) 100%);
+--lightgrad:       linear-gradient(120deg, rgb(219, 219, 219) 0%, rgb(255, 255, 255)100%);
+--darkgrad:        linear-gradient(120deg, rgb(73, 73, 73) 0%, rgb(3, 3, 3)100%);
+
+}
+html                 { scroll-behavior: smooth;}
+.text-dark           { color: #444;}
+body                 { background-color: var(--light) !important ;}
+.first-content        { padding:4em;margin-top: 10em; }
+.box-shadow          { box-shadow: 0px 0px 30px -10px #444;}
+
+header               { padding: 1em !important; position: absolute !important; user-select: none;}
+.nav                 { background-color: transparent !important; margin-bottom: 1em;}
+.logo                { position: absolute !important; left: 8px; top: 14px;}
+.nav-btn-active      { margin: 0px !important;}
+header ul li:hover   { background-color: transparent !important;}
+.nav-btn             { padding-top: 1em; padding-bottom: 1em;padding-right: 2em;padding-left: 2em;transition: 500ms !important;}
+.nav-btn:hover       { box-shadow: 0px 1px 0px 0px rgb(59, 59, 59) ;}
+
+.theme-text          { color: var(--text-theme);}
+
+.btn                 { padding: 1em !important; margin: 2em !important; margin-top: 5em !important;background: var(--theme) no-repeat; border-radius: 0px !important;
+                       /* box-shadow: 0px 1px 17px 6px #0000002b; */ box-shadow:0px 1.25rem 1.25rem -0.62rem rgba(0,0,0,0.2);
+                        border: none !important; transition: 500ms !important; cursor: default; user-select: none;}
+.btn:hover           { background: var(--darkgrad); color: rgb(211, 211, 211)!important; box-shadow: none;}                      
+
+.top-img             { height: 20vw;}
+
+.down-south          { }
+
+/* mini nav bar */
+.mini-nav             { position: sticky !important; position: -webkit-sticky; background-color: rgba(49, 49, 49, 0.5) !important; backdrop-filter: blur(20px)!important; -webkit-backdrop-filter: blur(20px) !important;
+                        box-shadow: 0px 0px 30px -10px #444; width: auto;}
+.mini-nav-btn         { color: white; padding: 0.75em !important;margin-left: 1em; margin-right: 1em;}
+.mini-nav ul          { background-color: transparent !important;}
+.mini-nav ul li       { background-color: transparent !important;}                      
+.mini-nav ul li:hover { box-shadow: 0px 1px 0px 0px rgb(59, 59, 59)!important ;}
+.mini-nav-bold        { background:var(--theme) no-repeat; padding: 1em;}
+
+.mini-nav a           { padding-top: 1.5em; padding-bottom: 1.5em;padding-left: 4vw;padding-right: 4vw;transition: 500ms !important;}
+.mini-nav a:hover     { box-shadow: 0px 1px 0px 0px var(--dark);}
+.nav-item-active      { float: right; margin-left: 5em; cursor: default;}
+.nav-item             { cursor: default; user-select: none;}
+.nav-item-active:hover{ box-shadow: none;}
+
+/* mini nav bar */
+
+
+
+
